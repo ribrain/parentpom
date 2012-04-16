@@ -107,6 +107,22 @@
 							<skipTests>${skip.integration.test}</skipTests>
 						</configuration>
 					</execution>
+					<execution>
+                                                <id>load-testing</id>
+                                                <phase>integration-test</phase>
+                                                <goals>
+                                                        <goal>test</goal>
+                                                </goals>
+                                                <configuration>
+                                                        <includes>
+                                                                <include>**/load/**/*Test.*</include>
+                                                        </includes>
+                                                        <excludes>
+                                                                <exclude>**/integration/**/*Test.*</exclude>
+                                                        </excludes>
+                                                        <skipTests>${skip.load.test}</skipTests>
+                                                </configuration>
+                                        </execution>
 				</executions>
 			</plugin>
 			<plugin>
