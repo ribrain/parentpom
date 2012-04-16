@@ -22,6 +22,7 @@
 
 	<properties>
 		<skip.integration.test>true</skip.integration.test>
+		<skip.load.test>true</skip.load.test>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- do not stop the build when a test fails -->
