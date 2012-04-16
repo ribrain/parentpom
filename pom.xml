@@ -86,7 +86,7 @@
 					</includes>
 					<excludes>
 						<exclude>**/integration/**/*Test.*</exclude>
-						<exclude>**/performance/**/*Test.*</exclude>
+						<exclude>**/load/**/*Test.*</exclude>
 					</excludes>
 					<skipTests>${skip.test}</skipTests>
 				</configuration>
@@ -102,7 +102,7 @@
 								<include>**/integration/**/*Test.*</include>
 							</includes>
 							<excludes>
-								<exclude>**/performance/**/*Test.*</exclude>
+								<exclude>**/load/**/*Test.*</exclude>
 							</excludes>
 							<skipTests>${skip.integration.test}</skipTests>
 						</configuration>
