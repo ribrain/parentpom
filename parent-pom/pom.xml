@@ -15,7 +15,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>ribrain repo</id>
 			<name>Ribrain Repository</name>
-			<url>scp://localhost/home/ribrain/.m2/repository/</url>
+			<url>scp://bobdebouwer/home/ribrain/.m2/repository/</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
